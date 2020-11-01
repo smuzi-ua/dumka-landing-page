@@ -1,0 +1,10 @@
+.section-main {
+    width: 100vw;
+    height: 100vh;
+}
+
+@media (min-width: 992px) {
+    .pl-10-pc-lg {
+        padding-left:10%;
+    }
+}
