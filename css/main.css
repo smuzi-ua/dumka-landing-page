@@ -1,5 +1,5 @@
-.section-main {
-    width: 100vw;
+.section-main, .section-about {
+    width: 100%;
     height: 100vh;
 }
 
@@ -41,4 +41,24 @@
             padding-top:16px;
             padding-bottom: 16px;
         }
+
+    .section-about {
+        padding-left: 111px;
+        padding-right: 77px;
+        padding-top: 18vh;
+        padding-bottom: 9vh;
+    }
+
+    .section-about > div {
+        height: 100%;
+    }
+
+    .about-text {
+        margin-right: 35px;
+        margin-left: 10px;
+        margin-top: -5.3vh;
+        padding-top: 5.3vh;
+        margin-bottom: 6.2vh;
+        padding-bottom: 7.2vh;
+    }
 }

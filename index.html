@@ -16,6 +16,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-purple">
         <a class="navbar-brand pl-10-pc-lg" href="#">
             <img src="images/logo-white.svg" alt="Dumka?" id="navbar-logo-white">
+            <img src="images/logo-purple.svg" alt="Dumka?" id="navbar-logo-purple" style="display:none;">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,27 +24,27 @@
         <div class="collapse navbar-collapse " id="navbar-main-menu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Головна <span class="sr-only">(поточна)</span></a>
+                    <a class="nav-link" href="#">головна <span class="sr-only">(поточна)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Про проєкт</a>
+                    <a class="nav-link" href="#">про проєкт</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Реєстрація</a>
+                    <a class="nav-link" href="#">реєстрація</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Запитати нас</a>
+                    <a class="nav-link" href="#">запитати нас</a>
                 </li>
             </ul>
         </div>
     </nav>
     <section class="section-main d-flex">
         <img src="images/coming-home.svg" alt="Coming home..." id="coming-home" height="326" width="533"
-             style="margin-left: calc(35% - 363px); margin-top: calc(50vh - 185px);" >
+             style="margin-left: calc(35% - 363px); margin-top: calc(50vh - 185px);">
         <div class="text-block-outer">
             <div class="spacer-top"></div>
             <h1 class="text-right" style="width: calc(580px + (100% - 580px) / 2); margin-bottom: 36px;">
-                учнівська ідея. <br /> 
+                учнівська ідея. <br />
                 вчительська підтримка.
             </h1>
             <div class="text-purple-light text-right" style="width: calc(580px + (100% - 580px) / 2); margin-bottom: 91px;">
@@ -52,8 +53,40 @@
                 спільноти
             </div>
             <button type="button" class="btn bg-orange text-white text-lg mx-auto" style="width:580px;" id="sign-up-button">
-            Зареєструвати свою школу</button>
+                Зареєструвати свою школу
+            </button>
             <div class="spacer-button"></div>
+        </div>
+    </section>
+    <section class="section-about">
+        <div class="bg-purple d-flex">
+            <div class="col d-flex py-0" style="padding-left: 31px;">
+                <div style="flex-grow: 2"></div>
+                <img src="images/checklist.svg" alt="Checklist image..." style="width: 100%;">
+                <div style="flex-grow: 1.5"></div>
+            </div>
+            <div class="col about-text">
+            </div>
+        </div>
+    </section>
+    <section class="section-about">
+        <div class="bg-purple d-flex">
+            <div class="col d-flex py-0" style="padding-left: 55px; padding-right:60px;">
+                <div style="flex-grow: 2"></div>
+                <img src="images/chat.svg" alt="Chat image..." style="width: 100%;">
+                <div style="flex-grow: 2"></div>
+            </div>
+            <div class="col about-text"></div>
+        </div>
+    </section>
+    <section class="section-about">
+        <div class="bg-purple d-flex">
+            <div class="col d-flex py-0" style="padding-left: 70px;">
+                <div style="flex-grow: 1.6"></div>
+                <img src="images/mobile.svg" alt="Mobile image..." style="width: 100%;">
+                <div style="flex-grow: 1.7"></div>
+            </div>
+            <div class="col about-text"></div>
         </div>
     </section>
     <div class="social-icons">
@@ -69,5 +102,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
 </body>
 </html>

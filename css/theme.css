@@ -100,9 +100,18 @@
     background: #FF6129 !important;
 }
 
+.bg-purple {
+    background: #673AB7 !important;
+}
+
 .theme-purple .text-lg {
     font-size: 36px;
     line-height: 42px;
+}
+
+.about-text {
+    background: #F2F2F2;
+    border-radius: 6px;
 }
 
 
