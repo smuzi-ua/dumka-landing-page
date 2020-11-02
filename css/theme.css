@@ -1,6 +1,7 @@
 .theme-purple {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    line-height: 37px;
 }
 
     .theme-purple section.section-main {
@@ -74,6 +75,34 @@
 
 .bg-purple {
     background-color: rgba(94,53,177, 1) !important;
+}
+
+.theme-purple h1, h2, h3, h4, h5, h6 {
+    color: #512DA8;
+}
+
+.theme-purple .text-purple-light {
+    color: #9F69FF;
+}
+
+.theme-purple h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 59px;
+    letter-spacing: 0.04em;
+}
+
+.theme-purple .btn {
+    border-radius: 12px !important
+}
+
+.bg-orange {
+    background: #FF6129 !important;
+}
+
+.theme-purple .text-lg {
+    font-size: 36px;
+    line-height: 42px;
 }
 
 

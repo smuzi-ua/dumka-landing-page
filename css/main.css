@@ -7,4 +7,38 @@
     .pl-10-pc-lg {
         padding-left:10%;
     }
+
+    .social-icons {
+        position: fixed;
+        bottom: 15px;
+        left:30px;
+    }
+
+    .social-icons-icon {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .section-main .text-block-outer {
+        width: calc(65% - 170px); /*see img#coming-home */
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+        .section-main .text-block-outer .spacer-top {
+            flex-grow: 1.1;
+        }
+
+        .section-main .text-block-outer .spacer-button {
+            flex-grow: 1;
+        }
+
+        #sign-up-button {
+            /*padding-left: 80px;
+            padding-right: 80px;*/
+            padding-top:16px;
+            padding-bottom: 16px;
+        }
 }
