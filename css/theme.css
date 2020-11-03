@@ -89,12 +89,15 @@
     font-size: 48px;
     font-weight: bold;
     line-height: 59px;
-    letter-spacing: 0.04em;
 }
 
-.theme-purple .btn {
-    border-radius: 12px !important
-}
+    .theme-purple h1.letter-spacing-bigger {
+        letter-spacing: 0.04em;
+    }
+
+    .theme-purple .btn {
+        border-radius: 12px !important
+    }
 
 .bg-orange {
     background: #FF6129 !important;
@@ -109,9 +112,32 @@
     line-height: 42px;
 }
 
+.theme-purple .text-lg-md {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.theme-purple .text-md {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.theme-purple .text-sm {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.theme-purple .text-xs {
+    font-size: 18px;
+    line-height: 21px;
+}
+
 .about-text {
     background: #F2F2F2;
     border-radius: 6px;
 }
 
+.theme-purple .text-black {
+    color: #2F2E41 !important;
+}
 
