@@ -8,13 +8,9 @@
         background: linear-gradient(to right, rgb(94,53,177) 35%, white 0%);
     }
 
-.navbar-purple .navbar-brand {
-    color: rgba(0, 0, 0, 0.9);
-    /*font-size: 30px;*/
-}
-
-    .navbar.navbar-purple {
-        background-color: rgba(255,255,255,0);
+    .navbar-purple .navbar-brand {
+        color: rgba(0, 0, 0, 0.9);
+        /*font-size: 30px;*/
     }
 
     .navbar-purple .navbar-brand:hover, .navbar-purple .navbar-brand:focus {
@@ -75,6 +71,10 @@
 
 .bg-purple {
     background-color: rgba(94,53,177, 1) !important;
+}
+
+.bg-part-purple {
+    background: linear-gradient(to right, rgb(94,53,177) 35%, white 0%);
 }
 
 .theme-purple h1, h2, h3, h4, h5, h6 {
