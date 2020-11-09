@@ -107,6 +107,11 @@
     background: #673AB7 !important;
 }
 
+.theme-purple .text-xxl {
+    font-size: 64px;
+    line-height: 78px;
+}
+
 .theme-purple .text-lg {
     font-size: 36px;
     line-height: 42px;

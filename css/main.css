@@ -7,15 +7,15 @@
     overflow-y: hidden;
 }
 
-    @media (min-width: 992px) {
-        .pl-10-pc-lg {
-        padding-left:10%;
+@media (min-width: 992px) {
+    .pl-10-pc-lg {
+        padding-left: 10%;
     }
 
     .social-icons {
         position: fixed;
         bottom: 15px;
-        left:30px;
+        left: 30px;
         z-index: 1000;
     }
 
@@ -39,17 +39,18 @@
         .section-main .text-block-outer .spacer-button {
             flex-grow: 1;
         }
+
     .sign-up-button {
         padding-top: 10px;
         padding-bottom: 10px;
     }
 
-    .sign-up-button.higher {
-        /*padding-left: 80px;
+        .sign-up-button.higher {
+            /*padding-left: 80px;
             padding-right: 80px;*/
-        padding-top: 16px;
-        padding-bottom: 16px;
-    }
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
 
     .section-about {
         padding-left: 111px;
@@ -58,13 +59,14 @@
         padding-bottom: 9vh;
     }
 
-    .section-about > div {
-        height: 100%;
-    }
+        .section-about > div {
+            height: 100%;
+        }
 
     .about-div {
         padding-right: 35px;
     }
+
     .about-text {
         padding-right: 25px;
         padding-left: 30px;
@@ -115,4 +117,16 @@
         border-radius: 6px;
         width: 100% !important;
     }
+
+    .block-questions-left {
+        width: 35%;
+    }
+
+    .block-questions-right {
+        width: 65%;
+    }
+}
+
+.text-signika {
+    font-family: Signika;
 }

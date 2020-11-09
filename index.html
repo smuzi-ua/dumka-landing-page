@@ -7,7 +7,8 @@
     <meta name="description" content="Dumka? project web-site">
     <title>Dumka?</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Signika" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/main.css">
@@ -124,7 +125,7 @@
             <div class="bg-purple big-square square-left" style="z-index: 1;"></div>
         </div>
         <div class="form-div" style="z-index: 2;">
-            <h1 class="text-lg text-black">
+            <h1 class="text-black text-signika">
                 Реєстрація школи
             </h1>
             <form>
@@ -157,7 +158,43 @@
             <div class="bg-purple big-square square-right" style="z-index: 1;"></div>
         </div>
     </section>
-    <section class="section-main d-flex"></section>
+    <section class="section-main d-flex flex-row">
+        <div class="block-questions-left">
+            <h1 class="text-xxl text-white">
+                залишилися <br />
+                питання?
+            </h1>
+            <p class="text-white">
+                заповни форму <br />
+                або<br /> 
+                напиши нам<br /> 
+                dumka.project@gmail.com
+            </p>
+        </div>
+        <div class="block-questions-right">
+            <form>
+                <div>
+                    <label class="text-xs mb-2">Ім’я</label>
+                    <input type="text" class="form-input" />
+                </div>
+                <div>
+                    <label class="text-xs mb-2">E-mail</label>
+                    <input type="text" class="form-input" />
+                </div>
+                <div>
+                    <label class="text-xs mb-2">Телефон</label>
+                    <input type="text" class="form-input" />
+                </div>
+                <div>
+                    <label class="text-xs mb-2">Твоє повідомлення</label>
+                    <input type="text" class="form-input" />
+                </div>
+                <button type="button" class="btn bg-orange text-white text-lg-md mx-auto d-block" style="width: 290px;">
+                    Надіслати
+                </button>
+            </form>
+        </div>
+    </section>
     <div class="social-icons">
         <div class="d-flex flex-column">
             <img src="images/facebook-icon.svg" alt="Contact as in Facebook" class="d-block social-icons-icon">
