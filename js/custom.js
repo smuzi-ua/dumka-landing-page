@@ -18,6 +18,14 @@ $(function () {
             $('.navbar').addClass('bg-part-purple');
             $('.navbar').removeClass('bg-white');
         }
+        if ($(this).scrollTop() < maxWhiteIndex * $(window).height()) {
+            $('#social-icons-block').addClass('social-icons-block');
+            $('#social-icons-block').removeClass('social-icons-row');
+        }
+        if ($(this).scrollTop() >= maxWhiteIndex * $(window).height()) {
+            $('#social-icons-block').addClass('social-icons-row');
+            $('#social-icons-block').removeClass('social-icons-block');
+        }
     }
     onScrollFunc();
     $(window).scroll(onScrollFunc);
