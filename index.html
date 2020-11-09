@@ -119,12 +119,45 @@
             </div>
         </div>
     </section>
-    <section class="section-registration">
-        <div class="bg-purple big-square square-left"></div>
-        <div class="bg-purple big-square square-right"></div>
+    <section class="section-registration d-flex flex-row">
+        <div style="flex-grow: 1; position:relative; z-index: 1;">
+            <div class="bg-purple big-square square-left" style="z-index: 1;"></div>
+        </div>
+        <div class="form-div" style="z-index: 2;">
+            <h1 class="text-lg text-black">
+                Реєстрація школи
+            </h1>
+            <form>
+                <div>
+                    <label class="text-xs mb-2">Назва школи</label>
+                    <input type="text" class="form-input" />
+                </div>
+                <div>
+                    <label class="text-xs mb-2">Адреса</label>
+                    <input type="text" class="form-input" />
+                </div>
+                <div>
+                    <label class="text-xs mb-2">Координатори</label>
+                    <input type="text" class="form-input" />
+                </div>
+                <div>
+                    <label class="text-xs mb-2">E-mail</label>
+                    <input type="text" class="form-input" />
+                </div>
+                <div>
+                    <label class="text-xs mb-2">Номер телефону</label>
+                    <input type="text" class="form-input" />
+                </div>
+                <button type="button" class="btn bg-orange text-white text-lg-md mx-auto d-block" style="width: 390px;">
+                    Зареєструвати
+                </button>
+            </form>
+        </div>
+        <div style="flex-grow: 1.75; position:relative; z-index: 1;">
+            <div class="bg-purple big-square square-right" style="z-index: 1;"></div>
+        </div>
     </section>
-    <section class="section-main d-flex">
-    </section>
+    <section class="section-main d-flex"></section>
     <div class="social-icons">
         <div class="d-flex flex-column">
             <img src="images/facebook-icon.svg" alt="Contact as in Facebook" class="d-block social-icons-icon">

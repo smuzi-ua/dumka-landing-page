@@ -1,8 +1,8 @@
 $(function () {
     //we have 2-5 pages with white background
     const maxWhiteIndex = 5;
-    $(window).scroll(function () {
-        if ($(this).scrollTop() >= $(window).height() && 
+    function onScrollFunc() {
+        if ($(this).scrollTop() >= $(window).height() &&
             $(this).scrollTop() < maxWhiteIndex * $(window).height()) {
             $('#navbar-logo-white').hide();
             $('#navbar-logo-purple').show();
@@ -18,5 +18,7 @@ $(function () {
             $('.navbar').addClass('bg-part-purple');
             $('.navbar').removeClass('bg-white');
         }
-    });
+    }
+    onScrollFunc();
+    $(window).scroll(onScrollFunc);
 });
