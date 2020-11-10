@@ -127,6 +127,7 @@
 
     .form-div {
         width: 440px;
+        height: 100vh;
     }
 
     .form-input {
