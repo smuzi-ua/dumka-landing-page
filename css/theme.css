@@ -5,13 +5,20 @@
 }
 
     .theme-purple section.section-main {
-        background: linear-gradient(to right, rgb(94,53,177) 35%, white 0%);
+        background: linear-gradient(to bottom, rgb(94,53,177) 35%, white 0%);
     }
 
-    .navbar-purple .navbar-brand {
-        color: rgba(0, 0, 0, 0.9);
-        /*font-size: 30px;*/
+@media (min-width: 992px) {
+    .theme-purple section.section-main {
+        background: linear-gradient(to right, rgb(94,53,177) 35%, white 0%);
     }
+}
+
+
+.navbar-purple .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    /*font-size: 30px;*/
+}
 
     .navbar-purple .navbar-brand:hover, .navbar-purple .navbar-brand:focus {
         color: rgba(0, 0, 0, 0.9);
@@ -77,6 +84,12 @@
     background: linear-gradient(to right, rgb(94,53,177) 35%, white 0%);
 }
 
+@media (min-width: 992px) {
+    .bg-part-purple-lg {
+        background: linear-gradient(to right, rgb(94,53,177) 35%, white 0%);
+    }
+}
+
 .theme-purple h1, h2, h3, h4, h5, h6 {
     color: #512DA8;
 }
@@ -95,17 +108,17 @@
         letter-spacing: 0.04em;
     }
 
-    .theme-purple .btn {
-        border-radius: 12px !important
-    }
+.theme-purple .btn {
+    border-radius: 12px !important
+}
 
 .bg-orange {
     background: #FF6129 !important;
 }
 
-.bg-purple {
-    background: #673AB7 !important;
-}
+/*.bg-purple {
+    background: #673ab7 !important;
+}*/
 
 .theme-purple .text-xxl {
     font-size: 64px;
@@ -149,4 +162,3 @@
 .theme-purple .text-gray {
     color: #84848F !important;
 }
-

@@ -7,7 +7,8 @@ $(function () {
             $('#navbar-logo-white').hide();
             $('#navbar-logo-purple').show();
 
-            $('.navbar').removeClass('bg-part-purple');
+            $('.navbar').removeClass('bg-part-purple-lg');
+            $('.navbar').removeClass('bg-purple');
             $('.navbar').addClass('bg-white');
         }
         if ($(this).scrollTop() < $(window).height() ||
@@ -15,7 +16,8 @@ $(function () {
             $('#navbar-logo-white').show();
             $('#navbar-logo-purple').hide();
 
-            $('.navbar').addClass('bg-part-purple');
+            $('.navbar').addClass('bg-part-purple-lg');
+            $('.navbar').addClass('bg-purple');
             $('.navbar').removeClass('bg-white');
         }
         if ($(this).scrollTop() < maxWhiteIndex * $(window).height()) {

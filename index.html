@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="theme-purple">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-purple" id="main-nav">
-        <a class="navbar-brand pl-10-pc-lg js-scroll-trigger" href="#main">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-purple bg-purple bg-part-purple-lg" id="main-nav">
+        <a class="navbar-brand mx-auto mx-lg-0 pl-10-pc-lg js-scroll-trigger" href="#main">
             <img src="images/logo-white.svg" alt="Dumka?" id="navbar-logo-white">
             <img src="images/logo-purple.svg" alt="Dumka?" id="navbar-logo-purple" style="display:none;">
         </a>
@@ -39,9 +39,8 @@
             </ul>
         </div>
     </nav>
-    <section class="section-main d-flex" id="main">
-        <img src="images/coming-home.svg" alt="Coming home..." id="coming-home" height="326" width="533"
-             style="margin-left: calc(35% - 363px); margin-top: calc(50vh - 185px);">
+    <section class="section-main d-lg-flex" id="main">
+        <img src="images/coming-home.svg" alt="Coming home..." id="coming-home">
         <div class="text-block-outer">
             <div class="spacer-top"></div>
             <h1 class="letter-spacing-bigger text-right" style="width: calc(580px + (100% - 580px) / 2); margin-bottom: 36px;">
@@ -217,9 +216,15 @@
     </section>
     <div class="social-icons" id="social-icons-block">
         <!--<div class="d-flex flex-column">-->
-        <img src="images/facebook-icon.svg" alt="Contact as in Facebook" class="d-block social-icons-icon">
-        <img src="images/telegram-icon.svg" alt="Contact as in Telegram" class="d-block social-icons-icon">
-        <img src="images/instagram-icon.svg" alt="Contact as in Instagram" class="d-block social-icons-icon">
+        <a class="d-block social-icons-icon" href="" target="_blank" title="Ми у Facebook">
+            <img src="images/facebook-icon.svg" alt="Contact us in Facebook" class="social-icons-img">
+        </a>
+        <a class="d-block social-icons-icon" href="" target="_blank" title="Ми у Telegram">
+            <img src="images/telegram-icon.svg" alt="Contact us in Telegram" class="social-icons-img">
+        </a>
+        <a class="d-block social-icons-icon" href="" target="_blank" title="Ми у Instagram">
+            <img src="images/instagram-icon.svg" alt="Contact us in Instagram" class="social-icons-img">
+        </a>
         <!--</div>-->
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -228,8 +233,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" 
-            integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+            integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ=="
             crossorigin="anonymous"></script>
     <script src="js/custom.js"></script>
     <script src="js/scrolling-nav.js"></script>
